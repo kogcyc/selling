@@ -1,0 +1,44 @@
+��================================================================
+COMP SPEC � USED COMPUTER INSPECTION
+================================================================
+
+LENOVO 20JW0005US
+BIOS N1VET49W (1.39 ) | /Date(1557273600000)/
+Microsoft Windows 11 Pro � build 26100
+
+CPU
+----------------------------------------------------------------
+Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz
+2 cores / 4 threads
+2.50 GHz maximum
+
+MEMORY
+----------------------------------------------------------------
+8.0 GB DDR4
+2 k% 4.0 GB 059B
+2133 MT/s
+Dual channel likely
+2 of 2 slots populated
+
+STORAGE
+----------------------------------------------------------------
+500 GB Hard disk drive
+ST500LM021-1KJ152
+Drive health: HEALTHY
+Interface: SATA
+
+GRAPHICS
+----------------------------------------------------------------
+Intel(R) HD Graphics 520
+Integrated graphics only
+No dedicated gaming GPU detected
+
+NETWORKING
+----------------------------------------------------------------
+Intel(R) Dual Band Wireless-AC 8260
+130 Mbps | enabled
+Intel(R) Ethernet Connection I219-LM
+9.22337e+09 Gbps
+
+INSPECTION
+----------------------------------------------------------------
