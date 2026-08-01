@@ -1,0 +1,126 @@
+System
+====================================================================
+Manufacturer : Apple Inc.
+Model        : MacBookPro11,2
+Version      : 1.0
+BIOS Vendor  : Apple Inc.
+BIOS Version : 478.0.0.0.0
+BIOS Date    : 01/13/2023
+
+CPU
+====================================================================
+Model              : Intel(R) Core(TM) i7-4750HQ CPU @ 2.00GHz
+Architecture       : x86_64
+Sockets            : 1
+Physical cores     : 4
+Logical processors : 8
+Threads per core   : 2
+Maximum clock      : 3200 MHz (3.20 GHz)
+Minimum clock      : 800 MHz (0.80 GHz)
+L1 data cache      : 128 KiB (4 instances)
+L1 instruction     : 128 KiB (4 instances)
+L2 cache           : 1 MiB (4 instances)
+L3 cache           : 6 MiB (1 instance)
+Virtualization     : VT-x
+AES instructions   : Yes
+AVX                : Yes
+AVX2               : Yes
+AVX-512            : No
+
+Memory
+====================================================================
+Slot 0: DIMM0
+    Status           : Populated
+    Size             : 4 GB
+    Type             : DDR3
+    Speed            : 1600 MT/s
+    Configured Speed : Unknown
+    Manufacturer     : 0x80AD
+    Part Number      : 0x484D54343531533641465238412D50422020
+    Rank             : Unknown
+
+Slot 1: DIMM0
+    Status           : Populated
+    Size             : 4 GB
+    Type             : DDR3
+    Speed            : 1600 MT/s
+    Configured Speed : Unknown
+    Manufacturer     : 0x80AD
+    Part Number      : 0x484D54343531533641465238412D50422020
+    Rank             : Unknown
+
+Slots detected  : 2
+Slots populated : 2
+Slots empty     : 0
+Channel mode    : Dual Channel (likely)
+
+Storage
+====================================================================
+Drive 0: /dev/sda
+    Type          : SATA SSD
+    Capacity      : 234 GiB
+    Vendor        : ATA
+    Model         : APPLE SSD SM0256F
+    Interface     : sata
+    Removable     : No
+    SMART Details : Install smartmontools for health data
+    Partitions:
+        /dev/sda1 — 1.0 GiB — vfat — mounted at /boot/efi
+        /dev/sda2 — 233 GiB — ext4 — mounted at /
+
+Drive 1: /dev/sdb
+    Type          : Hard disk drive
+    Capacity      : 0 B
+    Vendor        : APPLE
+    Model         : SD Card Reader
+    Interface     : usb
+    Removable     : Yes
+    SMART Details : Install smartmontools for health data
+
+matt@ret15:~$ upower -i /org/freedesktop/UPower/devices/battery_BAT0
+  native-path:          BAT0
+  vendor:               DP
+  model:                bq20z451
+  power supply:         yes
+  updated:              Sat 01 Aug 2026 10:58:21 AM PDT (8 seconds ago)
+  has history:          yes
+  has statistics:       yes
+  battery
+    present:             yes
+    rechargeable:        yes
+    state:               charging
+    warning-level:       none
+    energy:              35.9532 Wh
+    energy-empty:        0 Wh
+    energy-full:         90.5754 Wh
+    energy-full-design:  95.0344 Wh
+    energy-rate:         22.5538 W
+    voltage:             11.753 V
+    charge-cycles:       71
+    time to full:        2.4 hours
+    percentage:          39.6942%
+    temperature:         34.3 degrees C
+    capacity:            95.3081%
+    technology:          lithium-ion
+    icon-name:          'battery-good-charging-symbolic'
+  History (charge):
+    1785607101	39.694	unknown
+    1785607096	39.669	charging
+    1785607090	39.657	charging
+    1785607088	39.644	charging
+    1785607081	39.620	charging
+    1785607077	39.607	charging
+    1785607065	39.495	charging
+    1785607059	39.470	discharging
+    1785607052	39.402	charging
+    1785607038	39.321	discharging
+    1785607016	39.182	charging
+    1785606997	39.060	discharging
+  History (rate):
+    1785607101	22.554	unknown
+    1785607090	0.000	charging
+    1785607088	24.333	charging
+    1785607077	0.000	charging
+    1785607068	23.567	charging
+    1785607031	11.504	charging
+
