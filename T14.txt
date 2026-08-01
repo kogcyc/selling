@@ -1,0 +1,77 @@
+
+System
+====================================================================
+Manufacturer : LENOVO
+Model        : 20W1S9352X
+Version      : ThinkPad T14 Gen 2i
+BIOS Vendor  : LENOVO
+BIOS Version : N34ET67W (1.67 )
+BIOS Date    : 07/17/2025
+
+CPU
+====================================================================
+Model              : 11th Gen Intel(R) Core(TM) i5-1145G7 @ 2.60GHz
+Architecture       : x86_64
+Sockets            : 1
+Physical cores     : 4
+Logical processors : 8
+Threads per core   : 2
+Maximum clock      : 4400 MHz (4.40 GHz)
+Minimum clock      : 400 MHz (0.40 GHz)
+L1 data cache      : 192 KiB (4 instances)
+L1 instruction     : 128 KiB (4 instances)
+L2 cache           : 5 MiB (4 instances)
+L3 cache           : 8 MiB (1 instance)
+Virtualization     : VT-x
+AES instructions   : Yes
+AVX                : Yes
+AVX2               : Yes
+AVX-512            : Yes
+
+Memory
+====================================================================
+Slot 0: Controller0-ChannelA
+    Status           : Populated
+    Size             : 16 GB
+    Type             : DDR4
+    Speed            : 3200 MT/s
+    Configured Speed : 3200 MT/s
+    Manufacturer     : Samsung
+    Part Number      : M471A2G44AM0-CWE
+    Rank             : 1
+
+Slot 1: Controller1-ChannelA-DIMM0
+    Status           : Empty
+
+Slots detected  : 2
+Slots populated : 1
+Slots empty     : 1
+Channel mode    : Single Channel (likely)
+
+Storage
+====================================================================
+Drive 0: /dev/sda
+    Type          : Hard disk drive
+    Capacity      : 14.5 GiB
+    Vendor        : Not reported
+    Model         : USB DISK 3.0
+    Interface     : usb
+    Removable     : Yes
+    SMART Details : Install smartmontools for health data
+    Partitions:
+        /dev/sda1 — 4.4 GiB — iso9660 — mounted at /cdrom
+        /dev/sda2 — 5.0 MiB — vfat
+        /dev/sda3 — 300 KiB
+        /dev/sda4 — 10.1 GiB — ext4 — mounted at /var/crash, /var/log
+
+Drive 1: /dev/nvme0n1
+    Type          : NVMe SSD
+    Capacity      : 238 GiB
+    Vendor        : Not reported
+    Model         : UMIS RPETJ256MGE2MDQ
+    Interface     : nvme
+    Removable     : No
+    SMART Details : Install smartmontools for health data
+    Partitions:
+        /dev/nvme0n1p1 — 1.0 GiB — vfat
+
