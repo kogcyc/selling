@@ -1,0 +1,68 @@
+
+System
+====================================================================
+Manufacturer    : Apple Inc.
+Model           : MacBook
+Model Identifier: MacBook10,1
+macOS           : macOS 13.7.7 (22H722)
+Firmware        : 529.140.2.0.0
+
+CPU
+====================================================================
+Model              : Intel(R) Core(TM) i7-7Y75 CPU @ 1.30GHz
+Architecture       : x86_64
+Sockets            : 1
+Physical cores     : 2
+Logical processors : 4
+Threads per core   : 2
+Maximum clock      : 1400 MHz (1.40 GHz)
+Minimum clock      : 1400 MHz (1.40 GHz)
+L1 data cache      : 32.0 KiB
+L1 instruction     : 32.0 KiB
+L2 cache           : 256 KiB
+L3 cache           : 4.0 MiB
+Virtualization     : Intel VT-x
+AES instructions   : Yes
+AVX                : Yes
+AVX2               : Yes
+AVX-512            : No
+
+Memory
+====================================================================
+Slot 0: BANK 0/DIMM0
+    Status           : Populated
+    Size             : 8 GB
+    Type             : LPDDR3
+    Speed            : 1867 MHz
+    Manufacturer     : 0x802C
+    Part Number      : 0x4D5435324C31473634443851432D31303720
+
+Slot 1: BANK 1/DIMM0
+    Status           : Populated
+    Size             : 8 GB
+    Type             : LPDDR3
+    Speed            : 1867 MHz
+    Manufacturer     : 0x802C
+    Part Number      : 0x4D5435324C31473634443851432D31303720
+
+Total memory    : 16.0 GiB
+Slots detected  : 2
+Slots populated : 2
+Slots empty     : 0
+Channel mode    : Dual Channel (likely)
+
+Storage
+====================================================================
+Drive 0: /dev/disk0
+    Type          : NVMe SSD
+    Capacity      : 234 GiB
+    Vendor        : Not reported
+    Model         : APPLE SSD AP0256J
+    Interface     : PCI-Express
+    Internal      : Yes
+    Removable     : No
+    SMART Health  : PASSED
+    Partitions:
+        /dev/disk0s1 — 300 MiB — EFI
+        /dev/disk0s2 — 233 GiB — Apple_APFS
+
